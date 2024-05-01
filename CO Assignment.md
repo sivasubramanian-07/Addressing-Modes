@@ -18,7 +18,7 @@ As an illustration:
    int x; x = 5; // Declaration of an integer variable named x Putting a number on x
 
 2. Constants: These are values that don't change while a program is being executed. 
-In numerous programming languages, the `const` keyword is utilized to declare them.
+In numerous programming languages, the const keyword is utilized to declare them.
 
 As an illustration:
    
@@ -43,11 +43,16 @@ allocation, low-level memory operations, and data structures.
 
 ## Instance in C:
 
-#include \stdio.h> int main() { int x = 10; // Declare an integer variable int *ptr; 
-// Declare a pointer to an integer ptr = &x; printf("Value of x: %d\n", x); printf("Value of x via pointer: %d\n", *ptr); 
-printf("New value of x:%d\n",x); 
-return 0; 
-}
+    #include <stdio.h> 
+    int main()
+    {
+    int x = 10; // Declare an integer variable 
+    int *ptr; // Declare a pointer to an integer
+    ptr = &x; printf("Value of x: %d\n", x); 
+    printf("Value of x via pointer: %d\n", *ptr); 
+    printf("New value of x:%d\n",x); 
+    return 0; 
+    }
 
 ## Using arrays and indexing:
 
@@ -67,29 +72,34 @@ Using indexing to access items print("Element at index 0:", arr[0])  # Output: 1
   Indexed addressing modes, which are frequently used to access members of arrays or data structures,
 entail appending an index or offset value to a base address kept in a register in order to effectively access operands in memory.
 
+![image](https://github.com/sivasubramanian-07/Addressing-Modes/assets/168662438/dbd752aa-b0a4-448b-8e46-fd8ed2737a89)
 
 ## (2)Immediate addressing mode :
 
   The operand is defined in the instruction itself in this style. Although the instructions are lengthier, it is easy to identify the operands.
-       
+
+   ![image](https://github.com/sivasubramanian-07/Addressing-Modes/assets/168662438/bf0aafd3-c438-46a9-b9c7-dc29707aac28)
 
 ## 3)Register Direct Addressing Mode:
 
    In this manner, a register is used to directly specify the operand for an instruction.Rather than using a memory address, instructions make reference to the contents of a register.
 
+   ![image](https://github.com/sivasubramanian-07/Addressing-Modes/assets/168662438/917a5138-2b95-43ab-907b-d0bcaee97929)
 
-
-## (4) Register  indirect addressing mode :
+## (4) Register indirect addressing mode :
 
    ln this technique, a register is used to indirectly specify the operand's address.
 The instruction contains the address of a memory region where the operand is stored, as opposed to accessing the operand's value directly.
 The operand's position in memory is indicated by the register.
 
-
+![image](https://github.com/sivasubramanian-07/Addressing-Modes/assets/168662438/ed46dc03-0e38-4097-a20f-70b29cd0e8d8)
 
 ## (5)Relative addressing modes :
 
   The operand's address is specified in relation to the program counter or instruction pointer using the relative addressing mode, which makes program relocation easier and allows for more flexible and effective execution—particularly for instructions that branch or jump.
+
+![image](https://github.com/sivasubramanian-07/Addressing-Modes/assets/168662438/637d2b68-729a-4f06-bf5a-7fae6ed92e42)
+
 
 ## Conclusion :
   
