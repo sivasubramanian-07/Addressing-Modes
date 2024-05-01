@@ -74,7 +74,7 @@ entail appending an index or offset value to a base address kept in a register i
 
 ## (2)Immediate addressing mode :
 
-    The operand is defined in the instruction itself in this style. Although the instructions are lengthier, it is easy to identify the operands.
+  The operand is defined in the instruction itself in this style. Although the instructions are lengthier, it is easy to identify the operands.
        
 
 ## 3)Register Direct Addressing Mode:
