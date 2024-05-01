@@ -2,7 +2,7 @@
 
 ## Modes of Addressing:
 
-            The various methods a computer architecture might designate operand locations for instructions are referred to as addressing modes. 
+ The various methods a computer architecture might designate operand locations for instructions are referred to as addressing modes. 
 Among them are the following: indexed, relative, direct, indirect, and immediate modes. For particular programming styles and operation kinds, each mode has benefits.
 
 ## Fixed Points:
@@ -89,11 +89,13 @@ entail appending an index or offset value to a base address kept in a register i
 The instruction contains the address of a memory region where the operand is stored, as opposed to accessing the operand's value directly.
 The operand's position in memory is indicated by the register.
 
+
+
 ## (5)Relative addressing modes :
 
   The operand's address is specified in relation to the program counter or instruction pointer using the relative addressing mode, which makes program relocation easier and allows for more flexible and effective execution—particularly for instructions that branch or jump.
 
-# Conclusion :
+## Conclusion :
   
    Determining how instructions express operands in machine language requires knowledge of addressing modes. They include a variety of registers, including indexed, relative, indirect, and direct. 
    Every mode has distinct advantages that affect memory access, flexibility, and efficiency. Selecting the appropriate addressing mode is essential for maximizing memory consumption and program performance.
